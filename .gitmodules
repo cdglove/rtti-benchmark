@@ -1,0 +1,6 @@
+[submodule "contrib/cmaketools"]
+	path = contrib/cmaketools
+	url = https://github.com/cdglove/cmaketools.git
+[submodule "contrib/type_index"]
+	path = contrib/type_index
+	url = https://github.com/cdglove/type_index.git

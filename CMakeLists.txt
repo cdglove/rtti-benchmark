@@ -35,4 +35,4 @@ find_package(Boost REQUIRED)
 
 add_executable(rtti-benchmark main.cpp factory.cpp)
 target_link_libraries(rtti-benchmark PUBLIC benchmark)
-target_include_directories(rtti-benchmark PRIVATE ${Boost_INCLUDE_DIR})
+target_include_directories(rtti-benchmark PRIVATE "contrib/type_index/include/;${Boost_INCLUDE_DIR}")
